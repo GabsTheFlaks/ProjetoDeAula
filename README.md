@@ -1,22 +1,19 @@
-# SameGame Tutorial C++ (WebAssembly)
+# Jules Tutor - Ensino de Programação em Python
 
-Bem-vindo ao tutorial do **SameGame**! Este projeto é uma evolução do antigo tutor de programação básica, mantendo o mesmo objetivo educacional: ensinar programação e desenvolvimento de jogos na prática passo a passo.
+Este repositório contém o material prático e os códigos das aulas descritas no nosso Plano de Ensino. O foco deste material é atender pessoas que **nunca tiveram contato com programação**, utilizando **Python** de forma lúdica e focada em problemas reais (como cálculos do dia a dia e gráficos simples).
 
-Ao longo deste projeto, vamos recriar o clássico jogo "SameGame" (inspirado num tutorial original de MFC), mas utilizando tecnologias modernas, abertas e multiplataforma: **C++**, a biblioteca gráfica **SDL2** e **WebAssembly (Emscripten)**. Isso permite que o jogo rode de forma nativa e rápida diretamente no seu navegador, utilizando a arquitetura padrão da indústria de jogos: o "Game Loop".
+## Módulos do Curso
 
-## Estrutura do Curso
+As pastas deste repositório acompanham o conteúdo programático:
 
-O código e as explicações estão divididos em pastas (aulas) progressivas:
+* **[Módulo 1: Lógica Básica](./modulo1_logica)**: Introdução às variáveis, operações matemáticas e tomada de decisão (If/Else).
+* **[Módulo 2: Dados e Gráficos](./modulo2_analise)**: Trabalhando com listas, calculando estatísticas simples (média, total) e plotando gráficos.
 
-* **[Aula 1 - Janela e Tabuleiro Inicial](./aula1_tabuleiro)**: Introdução ao C++ com SDL2, configuração do Emscripten (WebAssembly) e desenho da grade inicial de blocos do jogo.
-* *(Mais aulas serão adicionadas em seguida para cobrir a lógica do jogo completa!)*
+## Como Executar as Aulas
 
-## Como Compilar e Rodar
+Como a ideia é focar em alunos do Ensino Médio de Escolas Públicas ou turmas de introdução, recomendamos fortemente o uso do **Google Colab** ou **Replit**, pois rodam direto no navegador e não exigem instalação.
 
-Para compilar o código em qualquer uma das pastas, você precisará do **Emscripten (emcc)** instalado, que é o compilador de C++ para WebAssembly.
-
-1. Instale o Emscripten seguindo as [instruções oficiais](https://emscripten.org/docs/getting_started/downloads.html).
-2. Entre na pasta da aula que deseja compilar, por exemplo: `cd aula1_tabuleiro`
-3. Rode o script de build fornecido (ex: `build.sh` ou `make`).
-4. Para visualizar o jogo, inicie um servidor HTTP local na pasta e abra o `index.html` no seu navegador.
-   * Você pode usar o Python para isso: `python3 -m http.server` e acessar `http://localhost:8000/index.html`.
+Porém, para testar localmente na sua máquina:
+1. Instale o Python (versão 3.8 ou superior).
+2. (Para o Módulo 2) Instale a biblioteca de gráficos rodando: `pip install matplotlib`
+3. Execute os arquivos python pelo terminal: `python modulo1_logica/aula1_variaveis.py`
