@@ -86,7 +86,7 @@ int main() {
         cout << "Nao desanime! A programacao exige pratica. Tente novamente!\n";
     }
 
-    cout << "\nObrigado por jogar com o Julius Tutor!\n";
+    cout << "\nObrigado por jogar com os universitarios.\n";
 
     return 0;
 }
