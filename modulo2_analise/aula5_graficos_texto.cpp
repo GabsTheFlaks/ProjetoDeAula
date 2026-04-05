@@ -13,10 +13,21 @@ int main() {
 
     // 1. Vetores (Guardando informações dos meses e dos gastos)
     vector<string> meses = {"Jan", "Fev", "Mar", "Abr", "Mai"};
-    vector<int> gastos_cantina = {20, 45, 15, 60, 30}; // Valores inteiros simplificados
+    vector<int> gastos_cantina;
+
+    // Perguntando ao usuário quanto ele gastou em cada mês
+    cout << "Vamos analisar seus gastos neste semestre!" << endl;
+    for (int i = 0; i < meses.size(); i++) {
+        int gasto;
+        cout << "Quanto voce gastou na cantina em " << meses[i] << "? R$";
+        cin >> gasto;
+        gastos_cantina.push_back(gasto);
+    }
+
+    cout << "\nGerando grafico...\n" << endl;
 
     // 2. Desenhando o Gráfico de Barras com Texto (ASCII Art)
-    // Para cada mês, vamos imprimir um bloco (ex: '=') correspondente ao valor gasto.
+    // Para cada mês, vamos imprimir um bloco correspondente ao valor gasto.
 
     for (int i = 0; i < meses.size(); i++) {
         // Imprime o nome do mês
@@ -39,8 +50,8 @@ int main() {
 
     // ==========================================
     // EXERCÍCIO PARA OS ALUNOS NA SALA DE AULA:
-    // Altere os valores no vetor 'gastos_cantina' e execute o programa
-    // para ver como a barra gráfica aumenta ou diminui magicamente!
+    // Execute o programa e coloque um mês com um gasto muito alto (ex: 200).
+    // O que acontece com as barras gráficas na tela?
     // ==========================================
 
     return 0;

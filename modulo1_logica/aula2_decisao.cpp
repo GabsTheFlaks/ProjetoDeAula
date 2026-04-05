@@ -8,11 +8,12 @@ using namespace std;
 int main() {
     cout << "--- AULA 2: TOMADA DE DECISAO ---" << endl;
 
-    // Vamos reaproveitar a ideia da média da aula passada
-    double media_final = 6.5;
+    // Pedindo para o usuário digitar a média
+    double media_final;
+    cout << "Digite a media final do aluno (ex: 7.5): ";
+    cin >> media_final;
 
-    cout << "A media do aluno foi: " << media_final << endl;
-    cout << "Verificando situacao do aluno...\n" << endl;
+    cout << "\nVerificando situacao do aluno...\n" << endl;
 
     // A estrutura IF (Se) e ELSE (Senão)
     if (media_final >= 7.0) {
@@ -31,8 +32,8 @@ int main() {
 
     // ==========================================
     // EXERCÍCIO PARA OS ALUNOS NA SALA DE AULA:
-    // Modifique o valor da variável 'media_final' para 8.0 e depois para 4.0.
-    // Observe qual mensagem o programa imprime na tela em cada caso.
+    // Rode o programa várias vezes digitando números como 8.0, 5.5 e 4.0.
+    // Observe qual mensagem o programa imprime na tela em cada caso para entender o If/Else.
     // ==========================================
 
     return 0;

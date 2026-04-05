@@ -20,9 +20,12 @@ int main() {
 
     cout << "\n-------------------" << endl;
 
-    // Outro exemplo: Tabuada!
-    int numero_da_tabuada = 7;
-    cout << "Tabuada do " << numero_da_tabuada << ":" << endl;
+    // Outro exemplo: Tabuada interativa!
+    int numero_da_tabuada;
+    cout << "Voce quer a tabuada de qual numero? Digite: ";
+    cin >> numero_da_tabuada;
+
+    cout << "\n--- Tabuada do " << numero_da_tabuada << " ---" << endl;
 
     for (int multiplicador = 1; multiplicador <= 10; multiplicador++) {
         int resultado = numero_da_tabuada * multiplicador;
@@ -31,7 +34,8 @@ int main() {
 
     // ==========================================
     // EXERCÍCIO PARA OS ALUNOS NA SALA DE AULA:
-    // Altere a variável 'numero_da_tabuada' para criar a tabuada do 9!
+    // Tente rodar o programa e pedir a tabuada de números grandes, como 255!
+    // O computador faz isso em um piscar de olhos graças ao 'for'.
     // ==========================================
 
     return 0;
