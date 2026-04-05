@@ -49,4 +49,4 @@ A proposta é mostrar como a programação pode ser aplicada de forma prática e
 
 **Módulo 2: Dados e Aplicação Prática (Aulas 4 e 5)**
 * **Aula 4:** Vetores (Arrays) e Estatística Básica. Como guardar vários dados juntos e calcular médias, somas e valores máximos do dia a dia.
-* **Aula 5:** Visualização de Dados em Texto. Construindo uma aplicação de terminal em C++ que gera "gráficos de barras" usando caracteres (ASCII Art) para analisar informações de forma visual e intuitiva.
+* **Aula 5:** Visualização de Dados e Projeto Final. Construindo uma aplicação de terminal que gera "gráficos de barras" usando caracteres (ASCII Art). Encerramento do curso com o **Projeto Final**, onde os alunos criam a sua própria versão do "Jules Tutor" (um quiz interativo de 4 perguntas validando acertos e erros), aplicando tudo que aprenderam.
