@@ -26,10 +26,10 @@ int main() {
     char respostasCorretas[TOTAL_PERGUNTAS] = {'B', 'A', 'C', 'B'};
 
     cout << "====================================================\n";
-    cout << "           BEM-VINDO AO JULES TUTOR!                \n";
+    cout << "           BEM-VINDO AO JULIUS TUTOR!               \n";
     cout << "====================================================\n\n";
 
-    cout << "Ola! Eu sou o Jules, seu tutor virtual de C++.\n";
+    cout << "Ola! Eu sou o Julius, seu tutor virtual de C++.\n";
     cout << "Qual e o seu nome? ";
     cin >> nome;
 
@@ -86,7 +86,7 @@ int main() {
         cout << "Nao desanime! A programacao exige pratica. Tente novamente!\n";
     }
 
-    cout << "\nObrigado por jogar com o Jules Tutor!\n";
+    cout << "\nObrigado por jogar com o Julius Tutor!\n";
 
     return 0;
 }

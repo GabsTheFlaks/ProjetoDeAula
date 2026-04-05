@@ -1,4 +1,4 @@
-# Jules Tutor - Ensino de Programação em C++
+# Julius Tutor - Ensino de Programação em C++
 
 Este repositório contém o material prático e os códigos das aulas descritas no nosso Plano de Ensino. O foco deste material é atender pessoas que **nunca tiveram contato com programação**, utilizando **C++** aplicado em problemas reais (como cálculos do dia a dia, médias e "gráficos" desenhados no próprio terminal).
 
