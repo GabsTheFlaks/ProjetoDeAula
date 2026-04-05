@@ -1,11 +1,11 @@
-# Aula 2: Análise de Dados Básica e Gráficos Simples
-# Objetivo: Introduzir Listas e visualização de dados com Matplotlib
+# Aula 5: Visualização de Dados (Gráficos)
+# Objetivo: Como desenhar gráficos simples para entender melhor os números.
 
-# Precisamos importar uma biblioteca.
-# Uma biblioteca é como um "pacote de ferramentas" que outra pessoa criou para nos ajudar.
+# Precisamos importar uma biblioteca chamada 'matplotlib'.
+# Uma biblioteca é como um "pacote de ferramentas extras" que outra pessoa criou para nos ajudar.
 import matplotlib.pyplot as plt
 
-print("--- AULA 2: ANÁLISE DE DADOS E GRÁFICOS ---")
+print("--- AULA 5: VISUALIZAÇÃO DE DADOS ---")
 
 # 1. Listas (Guardando várias informações em uma variável só)
 meses = ["Jan", "Fev", "Mar", "Abr", "Mai"]
