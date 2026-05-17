@@ -22,18 +22,6 @@
 
 **Julius Tutor** é um projeto de extensão focado no ensino de programação básica utilizando **C++** de forma acessível para iniciantes absolutos. O foco deste material é atender pessoas que **nunca tiveram contato com programação**, aplicando a linguagem em problemas reais do dia a dia (como cálculos de médias e gráficos desenhados no próprio terminal em ASCII).
 
-### 📸 Telas do Projeto (Screenshots)
-
-<div align="center">
-  <img src="https://via.placeholder.com/600x300?text=Screenshot+do+Terminal:+Aula+de+L%C3%B3gica" alt="Screenshot Lógica"/>
-  <br/>
-  <i>Exemplo de interação no terminal usando lógica básica.</i>
-  <br/><br/>
-  <img src="https://via.placeholder.com/600x300?text=Screenshot+do+Terminal:+Gr%C3%A1ficos+em+ASCII" alt="Screenshot Gráficos ASCII"/>
-  <br/>
-  <i>Gráficos gerados no terminal durante o projeto final.</i>
-</div>
-
 ### 🏗️ Arquitetura e Estrutura
 
 O repositório foi construído com uma abordagem pedagógica progressiva, em que cada "módulo" contém aulas em formato de scripts iterativos que interagem com o aluno pelo terminal.
@@ -79,18 +67,6 @@ Como o público-alvo são iniciantes (e muitas vezes sem acesso a computadores d
 ## 🇺🇸 About the Project (EN-US)
 
 **Julius Tutor** is an extension project focused on teaching basic programming using **C++** in an accessible way for absolute beginners. This material is designed for people who have **never had contact with programming**, applying the language to real-world everyday problems (like calculating averages and rendering terminal-based ASCII charts).
-
-### 📸 Screenshots
-
-<div align="center">
-  <img src="https://via.placeholder.com/600x300?text=Terminal+Screenshot:+Logic+Class" alt="Logic Screenshot"/>
-  <br/>
-  <i>Example of terminal interaction using basic logic.</i>
-  <br/><br/>
-  <img src="https://via.placeholder.com/600x300?text=Terminal+Screenshot:+ASCII+Charts" alt="ASCII Charts Screenshot"/>
-  <br/>
-  <i>Charts generated in the terminal during the final project.</i>
-</div>
 
 ### 🏗️ Architecture and Structure
 
