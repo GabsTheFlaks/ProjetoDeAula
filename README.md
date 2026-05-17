@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150" alt="Julius Tutor Logo" width="150"/>
+<img src="logo.svg" alt="Julius Tutor Logo" width="300"/>
 
   # Julius Tutor 🎓
 
